@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%lld damages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@damages@</string>
+		<key>damages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ран</string>
+			<key>zero</key>
+			<string>Без урона</string>
+			<key>one</key>
+			<string>Одна рана</string>
+			<key>few</key>
+			<string>%d раны</string>
+		</dict>
+	</dict>
+	<key>%lld bullets</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@bullets@</string>
+		<key>bullets</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>нет патронов</string>
+			<key>one</key>
+			<string>%d один патрон</string>
+			<key>few</key>
+			<string>%d патрона</string>
+			<key>other</key>
+			<string>%d патронов</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
